@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+   <link rel="stylesheet" href="style.css">                 
+  <title>survey form</title>
+</head>
+  <header>
+    <div class=container>
+    <h1 id="title">ETISALAT survey form</h1>
+    
+    <p id="description">Thank you for subscribing with us kindly fill out the form below</p>
+    </div>
+  </header>
+<body>
+  <section id="showcase">
+  <div class="container">
+   <fieldset>
+      <form id="survey-form" class="survey-form" autocomplete="off">
+      <label ID="name-label" >
+   name:<br> <input type="name"  id="name" name="name" placeholder="Enter your name" class="input1" required/>
+      </label>
+        <br>
+         <label id="email-label"><br>
+        Email:<br>
+ <input type="email" id="email" name="email" class="input1" placeholder="Enter your email" required/>
+        
+      </label>
+        <br><br>
+         <label
+
+        <br><br>
+           <label id="number-label">
+             Age(optional):<br> <input type="number" class="input1" id="number" placeholder="Enter your age" min="18" 
+                  max="60">
+       </label>
+        <br><br>
+        
+           <label>
+          
+       Date of birth:<br>
+             
+<input type="date" class="input1" placeholder="Enter your birthday" min='1899-01-01' max='2000-01-01'>
+      
+        
+      </label>
+        <br><br>
+        
+       
+   
+       
+      <p>would you ETSALAT to an organaisation? </p>
+      
+         <label >
+     
+      
+        <input type="radio" name="radio-button" value="radio" checked> definately<br><br>
+         <input type="radio" name="radio-button" value="radio">maybe<br><br>
+         <input type="radio" name="radio-button" value="radio">not sure<br>
+        
+      </label>
+     <p>what is your favourite service offer of Etisalat?</p>
+     <select id="dropdown" class="input1" placeholder="select and option">
+       <option disabled selected value>Select an option</option>
+       <option value="troubleshooting">troubleshooting</option>
+        <option value="firefighting">firefighting</option>
+        <option value="fire alarm">fire alarm</option>
+        <option value="Bms">Bms battery</option>
+       
+     </select>
+        <p>what would you like to see improved? (check all that apply)</p>
+       <input type="checkbox" name="checkbox" value="checkbox"> Elife service<br><br>
+        <input type="checkbox" name="check" value="check box"> customer v<br><br>
+        <input type="checkbox" name="checkbox" value="checkbox">Componet installation<br><br>
+        <input type="checkbox" name="checkbox" value="chekcbox"> system maintenance<br><br>
+        <p>Any comments or suggestions?</p>
+        <textarea rows="4" cols="50" placeholder="Enter your comment here....."></textarea>
+        <br>
+        <button type="submit" id="submit">submit</button>
+          
+    
+       
+      </form>
+    </fieldset>
+  </div>
+   </section>
+</body>
+  </html>

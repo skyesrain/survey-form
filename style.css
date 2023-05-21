@@ -1,0 +1,90 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    background:url("image/dubai.jpg" );
+    text-transform:uppercase;
+  }
+  .container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+    
+  }
+  /*header*/
+  header{
+    text-align:center;
+    font-family:arial,helvitica,sans-serif;
+    color:white;
+   
+    
+    /*showcase*/
+  }
+  fieldset{
+    padding-top:40px;
+    padding-left:40px;
+    box-shadow:20px 30px 20px 20px;
+    background-color:black ;
+    background-size:cover;
+    color:white;
+    font-family:sans-serif;
+    opacity:0.5;
+  }
+  
+  
+  
+   fieldset .input1{
+    width:95%;
+    border-radius:5px;
+     padding:8px;
+     background: transparent;
+     border-top:none ;
+     border-right:none;
+     border-left:none;
+     border-bottom: 2px solid white;
+    }
+  
+  .input1:hover{
+    transition-duration:5s;
+    background:white;
+    text-align:center;
+    transform:scaleY(1.5);
+    font-weight:bold;
+  }
+  
+  
+  textarea{
+    width:95%;
+    padding:11px;
+    font-size:20px;
+  }
+  #submit{
+    width:99%;
+    padding:12px;
+    margin-top:10px;
+    background-color:green;
+    border-radius:5px;
+    font-family:arial;
+    font-weight:bold;
+    font-size:20px;
+    
+  }
+  #submit:hover{
+    background-color:magenta;
+  }
+  #submit:active{
+    box-shadow: 0 5px#666 ;
+    transform: translateY(4px);
+  }
+  /*media queries*/
+  @media(max-width:500px){
+    header{
+      width:100%;
+      display:flex;
+      text-align:center;
+    }
+   #title{
+      font-size:25px;
+    }
+  }
+  
